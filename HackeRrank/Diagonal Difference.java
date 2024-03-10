@@ -1,5 +1,4 @@
 class Result {
-
     public static int diagonalDifference(List<List<Integer>> arr) {
 
     int rightDiagonalsSum = 0;
@@ -18,5 +17,4 @@ class Result {
     return Math.abs(rightDiagonalsSum - leftDiagonalSum);
 
     }
-
 }
