@@ -1,4 +1,6 @@
- public static void plusMinus(List<Integer> arr) {
+class Result {
+
+    public static void plusMinus(List<Integer> arr) {
     int total = arr.size();
     int positiveCount = 0;
     int negativeCount = 0;
@@ -21,4 +23,7 @@
     System.out.printf("%.6f\n",positiveRatio);
     System.out.printf("%.6f\n",negativeRatio);
     System.out.println(String.format("%.6f", zeroRatio));
+
+
     }
+}
