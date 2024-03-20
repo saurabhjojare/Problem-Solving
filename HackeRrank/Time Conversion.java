@@ -8,7 +8,7 @@ class Result {
            String convertedTime = outputFormat.format(date);
            return convertedTime;
        } catch(ParseException e) {
-           return "Invalid input format";
+           return "Invalid Input Format";
        }
 
     }
